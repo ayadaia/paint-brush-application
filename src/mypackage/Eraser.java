@@ -10,8 +10,8 @@ import java.awt.Graphics;
 
 public class Eraser extends Shape{
 
-    public Eraser(int x1, int y1, int x2, int y2,boolean isDotted) {
-        super(x1, y1, x2, y2, isDotted);
+    public Eraser(int x1, int y1, int x2, int y2,boolean isDotted, boolean isFilled, Color color) {
+        super(x1, y1, x2, y2, isDotted, isFilled, color);
     }
     
      @Override
